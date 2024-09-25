@@ -1,0 +1,19 @@
+
+Terms - Hositing means
+( Hositing )
+Ans : var give undefined using before initlization, let give refrence error 
+      normal function is hoisted in js
+      var is also hoisted in js
+
+
+var has a function level scope
+let has a block {} level scope
+
+using a globle variable in a function but with the same name give heiger prcedance to the local variable
+let x = "hii"
+function foo(){
+    console.log(x) // give error becuse of 13 line
+    let x = "hello"
+}
+
+
